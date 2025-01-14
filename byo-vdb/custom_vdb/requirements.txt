@@ -1,0 +1,13 @@
+chromadb == 0.5.17
+langchain == 0.3.13
+langchain-community == 0.3.12
+langchain-core == 0.3.26
+langchain-openai == 0.2.12
+langchain-text-splitters == 0.3.4
+sentence-transformers == 3.0.0
+transformers == 4.39.3
+torch == 2.0.1
+numpy == 1.26.4
+pandas == 2.0.3
+tiktoken == 0.7.0
+pysqlite3-binary
