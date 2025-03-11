@@ -1,4 +1,3 @@
----
 name: OpenAI gpt-4
 type: inference
 targetType: textgeneration
@@ -17,11 +16,8 @@ runtimeParameterDefinitions:
     type: string
     defaultValue: gpt-4o-mini
   - fieldName: GATEWAY_ACCESS_TOKEN
-    type: credential 
+    type: gateway credential 
     credentialType: api_token
   - fieldName: GATEWAY_ENDPOINT
     type: string 
-    description: Geico Gateway URL 
-  - fieldName: PROMPT_COLUMN_NAME
-    type: string
-    defaultValue: promptText
+    description: Gateway URL 
