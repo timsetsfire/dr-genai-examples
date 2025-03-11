@@ -1,0 +1,27 @@
+---
+name: OpenAI gpt-4
+type: inference
+targetType: textgeneration
+runtimeParameterDefinitions:
+  - fieldName: OPENAI_API_KEY
+    type: credential
+    credentialType: api_token
+    description: Open API key
+  - fieldName: OPENAI_ENDPOINT
+    type: string 
+    description: Azure OpenAI Endpoint 
+  - fieldName: OPENAI_API_VERSION
+    type: string 
+    description: OpenAI API Version
+  - fieldName: AZURE_DEPLOYMENT_ID
+    type: string
+    defaultValue: gpt-4o-mini
+  - fieldName: GATEWAY_ACCESS_TOKEN
+    type: credential 
+    credentialType: api_token
+  - fieldName: GATEWAY_ENDPOINT
+    type: string 
+    description: Geico Gateway URL 
+  - fieldName: PROMPT_COLUMN_NAME
+    type: string
+    defaultValue: promptText
