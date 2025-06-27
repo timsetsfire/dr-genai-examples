@@ -1,0 +1,8 @@
+openai==1.91.0
+openai-agents==0.0.19
+opentelemetry-instrumentation-openai==0.40.14
+opentelemetry-instrumentation-openai-v2==2.1b0
+datarobot==3.7.1
+datarobot-predict==1.13.2
+python-dotenv==1.1.1
+RapidFuzz==3.13.0
